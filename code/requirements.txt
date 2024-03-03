@@ -1,0 +1,8 @@
+# requirements.txt
+
+beautifulsoup4
+configparser
+requests
+selenium
+tqdm
+```
