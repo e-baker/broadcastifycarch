@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='radioreference-archives',
+    name='broadcastifycallarchives',
     version='0.1.0',
-    description='Download and parse RadioReference.com archives.',
+    description='Download and parse Broadcastify.com call archives.',
     author='Eric Baker',
     author_email='e-baker@users.noreply.github.com',
     packages=find_packages(),

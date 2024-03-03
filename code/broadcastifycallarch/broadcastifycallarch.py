@@ -1,5 +1,5 @@
 """
-This is a Python module for downloading from the radio reference archives.
+This is a Python module for downloading from the Broadcastify Call Archives.
 
 Author: Eric Baker
 Date: 2024-03-03
@@ -14,7 +14,7 @@ import selenium
 import bs4
 
 # Define classes and functions
-class RRArch:
+class BroadcastifyCallArchives:
     def __init__(self):
         self.config = configparser.ConfigParser()
         self.config.read('.config/rr_pwd.ini')
