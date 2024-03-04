@@ -15,10 +15,10 @@ v0.1.0 (2024-03-03)
 __title__ = "BCA Helpers"
 
 # Define the __name__ variable
-__name__ = "BCAHelpers"
+__name__ = "bcahelpers"
 
 # Define the __path__ variable
-__path__ = "src/broadcastify_carch/helpers"
+__path__ = "src/broadcastifycarch/helpers"
 
 # Define the __file__ variable
-__file__ = "src/broadcastify_carch/helpers/__init__.py"
+__file__ = "src/broadcastifycarch/helpers/__init__.py"

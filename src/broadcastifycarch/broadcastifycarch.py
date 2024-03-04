@@ -13,7 +13,7 @@ from helpers import BCALogger, BCAConfig
 
 
 # Define classes and functions
-class BroadcastifyCallArchives:
+class BroadcastifyCArchives:
     def __init__(self, params):
         # Check the configuration file/username and password
         self.config = BCAConfig(params).check()
@@ -54,7 +54,7 @@ def main():
     args = parser.parse_args()
 
     # Create a BroadcastifyCallArchives object
-    bca = BroadcastifyCallArchives({
+    bca = BroadcastifyCArchives({
         'start': args.start or None,
         'end': args.end or None,
         'days': args.days or None,

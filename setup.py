@@ -7,7 +7,7 @@ setup(
     author='Eric Baker',
     author_email='e-baker@users.noreply.github.com',
     packages=find_packages(),
-    namespace_packages=['broadcastifycarch'],
+    namespace_packages=[],
     install_requires=[
         i.strip() for i in open("requirements.txt").readlines()
     ],

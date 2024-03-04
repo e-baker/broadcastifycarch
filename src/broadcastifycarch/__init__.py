@@ -1,8 +1,8 @@
-from .broadcastifycallarch import BroadcastifyCallArchives
+from .broadcastifycarch import BCA
 from .helpers import BCALogger, BCAConfig
 
 # Define the __all__ variable
-__all__ = ['BroadcastifyCallArchives', 'BCALogger', 'BCAConfig']
+__all__ = ['BCA', 'BCALogger', 'BCAConfig']
 
 # Define the __doc__ variable
 __doc__ = """
@@ -19,10 +19,10 @@ __title__ = "Broadcastify Call Archives Toolkit for Python"
 __name__ = "broadcastifycarch"
 
 # Define the __path__ variable
-__path__ = "src/broadcastify_carch"
+__path__ = "src/broadcastifycarch"
 
 # Define the __file__ variable
-__file__ = "src/broadcastify_carch/__init__.py"
+__file__ = "src/broadcastifycarch/__init__.py"
 
 # Define the __version__ variable
 __version__ = "0.1.0"
@@ -32,6 +32,3 @@ __author__ = "Eric Baker"
 
 # Define the __license__ variable
 __license__ = "MIT"
-
-# Import the package resources
-__import__("pkg_resources").declare_namespace(__name__)
