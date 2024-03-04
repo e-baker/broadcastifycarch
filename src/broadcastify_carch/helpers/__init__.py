@@ -18,7 +18,7 @@ __title__ = "BCA Helpers"
 __name__ = "BCAHelpers"
 
 # Define the __path__ variable
-__path__ = "code/broadcastifycallarch/helpers"
+__path__ = "src/broadcastify_carch/helpers"
 
 # Define the __file__ variable
-__file__ = "code/broadcastifycallarch/helpers/__init__.py"
+__file__ = "src/broadcastify_carch/helpers/__init__.py"
