@@ -15,7 +15,7 @@ v0.1.0 (2024-03-03)
 __title__ = "BCA Helpers"
 
 # Define the __name__ variable
-__name__ = "bcahelpers"
+__name__ = "helpers"
 
 # Define the __path__ variable
 __path__ = "src/broadcastifycarch/helpers"

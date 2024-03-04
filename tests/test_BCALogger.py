@@ -1,4 +1,4 @@
-import broadcastifycarch.helpers.bca_logger as BCALogger
+import broadcastifycarch.helpers as BCALogger
 
 def test_BCALogger():
     # Create a logger

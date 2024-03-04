@@ -7,13 +7,10 @@ Date: 2024-03-03
 
 # Import necessary modules
 import argparse
-from helpers import BCALogger, BCAConfig
-
-# Define constants
-
+from .helpers import BCALogger, BCAConfig
 
 # Define classes and functions
-class BroadcastifyCArchives:
+class BroadcastifyCArch:
     def __init__(self, params):
         # Check the configuration file/username and password
         self.config = BCAConfig(params).check()

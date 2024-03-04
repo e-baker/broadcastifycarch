@@ -1,8 +1,7 @@
-from .broadcastifycarch import BCA
-from .helpers import BCALogger, BCAConfig
+from broadcastifycarch.helpers import BCALogger, BCAConfig
 
 # Define the __all__ variable
-__all__ = ['BCA', 'BCALogger', 'BCAConfig']
+__all__ = ['BroadcastifyCArch', 'BCALogger', 'BCAConfig']
 
 # Define the __doc__ variable
 __doc__ = """
