@@ -1,9 +1,4 @@
-import sys, os
-from pathlib import Path
-
-sys.path.append(os.path.join(Path(__file__).parent, 'src', 'broadcastify_carch'))
-
-import BCAHelpers.BCALogger
+import broadcastifycarch.helpers.bca_logger as BCALogger
 
 def test_BCALogger():
     # Create a logger

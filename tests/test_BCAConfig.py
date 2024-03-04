@@ -1,8 +1,6 @@
 # test_BCAConfig.py
 
-import sys, os
-
-from ..src.broadcastify_carch.helpers import BCAConfig
+from broadcastifycarch.helpers.bca_config import BCAConfig
 
 def test_create_BCAConfig():
     # Create a config
