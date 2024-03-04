@@ -1,7 +1,9 @@
 import sys, os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'code', 'broadcastifycallarch'))
+from pathlib import Path
 
-from helpers import BCALogger
+sys.path.append(os.path.join(Path(__file__).parent, 'src', 'broadcastify_carch'))
+
+import BCAHelpers.BCALogger
 
 def test_BCALogger():
     # Create a logger
@@ -14,7 +16,6 @@ def test_BCALogger_debug(caplog):
     bca_logger.debug('Debug message')
     
     assert 'Debug message' in caplog.text, 'Debug message not in caplog'
-    
 
 def test_BCALogger_info(caplog):
     bca_logger = BCALogger()
